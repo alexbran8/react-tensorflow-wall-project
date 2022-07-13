@@ -31,10 +31,12 @@ const Home = () => {
                 <div className="text">
                     {isMobile ? <h5>Loaded from mobile</h5> : <h5>Loaded from desktop</h5>}
                     <form className="form">
+                        Take snapshot picture
                         <WebcamCapture 
                         handleCapture={handleCapture}
                         />
                         <img src={source} />
+                        OR
                         <input
                             accept="image/*"
                             // className={classes.input}

@@ -35,7 +35,7 @@ export const WebcamCapture = (props) => {
                     screenshotFormat="image/jpeg"
                     width={300}
                     videoConstraints={videoConstraints}
-                /> : <img src={image} />}
+                /> : null}
             </div>
             <div>
                 {image != '' ?
