@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Home from "./components/Home"
 
@@ -8,14 +8,8 @@ function App() {
   // const classes = useStyles();
 
 
-
-
-
-
-  
-
   return (
-    <div className='container'>
+    <div className=''>
           <Home />
           {/* { source && <img src={source} alt={"snap"} ></img> } */}
           {/* <WebcamCapture/> */}

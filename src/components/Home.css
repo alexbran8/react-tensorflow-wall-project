@@ -13,23 +13,27 @@
     format("truetype");
 }
 .home-container {
+  /* border: 1px solid red; */
+  /* width: 50vw; */
+  margin: auto;
   /* box-sizing: border-box; */
   /* background-color: rgb(250, 193, 193); */
-  background: #fbd3e9; /* fallback for old browsers */
-  background: linear-gradient(to left, #fbd3e9, #0e6e02);
-  margin: auto;
+  /* background: #fbd3e9; fallback for old browsers */
+  /* background: linear-gradient(to left, #fbd3e9, #0e6e02); */
+  /* margin: auto; */
+  margin-top:10vh;
   /* min-height: 80vh; */
   /* padding: 20px 0; */
   /* overflow: hidden; */
   font-family: "Source Sans Pro", sans-serif;
 }
 .home-container .container {
-  /* max-width: 80vw; */
+  max-width: 60vw;
   margin: auto;
   /* display: flex; */
   /* padding: 0; */
-  background-color: white;
-  border-left: 1px solid white;
+  /* background-color: white; */
+  /* border: 1px solid black; */
   /* border-radius: 8px 0 0 8px; */
 }
 .home-container .container h1 {
@@ -107,11 +111,13 @@
 /* webcam  */
 .home-container .webcam-container {
   /* display: flex; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* flex-direction: column;
   text-align: center;
   width: 100%;
   margin: auto; */
+  /* width: 100%; */
+  /* margin: auto; */
 }
 .home-container .webcam-container .webcam-btn {
   margin-top: 10px;
@@ -142,4 +148,11 @@
     width: 100%;
     /* padding: 80px 20px; */
   }
+}
+
+.container .camera-container {
+  /* border: 1px solid red; */
+  min-height: 30vh;
+  display: grid;
+  placecontent: center;
 }
