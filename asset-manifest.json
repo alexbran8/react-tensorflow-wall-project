@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-tensorflow-wall-project/static/css/main.bef3ac5a.css",
-    "main.js": "/react-tensorflow-wall-project/static/js/main.838a7772.js",
+    "main.css": "/react-tensorflow-wall-project/static/css/main.424ae7b3.css",
+    "main.js": "/react-tensorflow-wall-project/static/js/main.601e1800.js",
     "static/js/787.39835738.chunk.js": "/react-tensorflow-wall-project/static/js/787.39835738.chunk.js",
     "index.html": "/react-tensorflow-wall-project/index.html",
-    "main.bef3ac5a.css.map": "/react-tensorflow-wall-project/static/css/main.bef3ac5a.css.map",
-    "main.838a7772.js.map": "/react-tensorflow-wall-project/static/js/main.838a7772.js.map",
+    "main.424ae7b3.css.map": "/react-tensorflow-wall-project/static/css/main.424ae7b3.css.map",
+    "main.601e1800.js.map": "/react-tensorflow-wall-project/static/js/main.601e1800.js.map",
     "787.39835738.chunk.js.map": "/react-tensorflow-wall-project/static/js/787.39835738.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef3ac5a.css",
-    "static/js/main.838a7772.js"
+    "static/css/main.424ae7b3.css",
+    "static/js/main.601e1800.js"
   ]
 }
