@@ -18,8 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "scope":".",
+  "start_url": "https://alexbran8.github.io/react-tensorflow-wall-project/",
+  "scope":"https://alexbran8.github.io/react-tensorflow-wall-project/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
