@@ -8,22 +8,22 @@ import Webcam from "react-webcam";
 
 export const WebcamCapture = (props) => {
 
-    const [image,setImage]=useState('');
+    const [image, setImage] = useState('');
     const webcamRef = React.useRef(null);
 
     const videoConstraints = {
         width: 220,
         height: 200,
-        facingMode:  props.mode
+        facingMode: props.mode
     };
     console.log(videoConstraints)
 
-    
+
     const capture = React.useCallback(
         () => {
-        const imageSrc = webcamRef.current.getScreenshot();
-        setImage(imageSrc)
-        props.handleCapture(imageSrc)
+            const imageSrc = webcamRef.current.getScreenshot();
+            setImage(imageSrc)
+            props.handleCapture(imageSrc)
         });
 
 
@@ -42,12 +42,16 @@ export const WebcamCapture = (props) => {
             </div>
             <div>
                 {image !== '' ?
-                    <button onClick={(e) => {
+                    <><button onClick={(e) => {
                         e.preventDefault();
                         setImage('')
                     }}
                         className="webcam-btn">
-                        Retake Image</button> :
+                        Retake Image</button>    <button onClick={(e) => {
+                            e.preventDefault();
+                            capture();
+                        }}
+                            className="webcam-btn">Close Camera</button></> :
                     <button onClick={(e) => {
                         e.preventDefault();
                         capture();
