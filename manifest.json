@@ -1,6 +1,6 @@
 {
-  "short_name": "React App2",
-  "name": "Create React App Sample",
+  "short_name": "Wall Project",
+  "name": "React Tensorflow Wall Project",
   "icons": [
     {
       "src": "favicon.ico",
