@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Wall Project",
+  "name": "React Tensorflow Wall Project",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,7 @@
     }
   ],
   "start_url": "https://alexbran8.github.io/react-tensorflow-wall-project/",
-  "scope":"https://alexbran8.github.io",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
