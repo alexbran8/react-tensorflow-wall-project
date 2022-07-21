@@ -1,3 +1,9 @@
+:root {
+  --red: #b00;
+  --blue: #00b;
+  --fullwidth: 100%;
+}
+
 .App {
   text-align: center;
 }
