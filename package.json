@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://alexbran8.github.io/react-tensorflow-wall-project",
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
     "@tensorflow/tfjs": "^3.18.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
