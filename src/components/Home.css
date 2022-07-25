@@ -145,14 +145,48 @@
     display: none;
   }
   .home-container .container .text {
-    width: 100%;
+    /* width: 100%; */
     /* padding: 80px 20px; */
   }
 }
 
 .container .camera-container {
   /* border: 1px solid red; */
-  min-height: 30vh;
-  display: grid;
+  /* min-height: 30vh;
+  display: grid; */
   placecontent: center;
+
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+}
+
+
+
+// responsive web design  
+
+@media (max-width: 359px) {
+  .container .camera-container {
+    width: 45%;
+  }
+}
+
+
+ @media (min-width: 360px) {
+  .container .camera-container {
+    width: 45%;
+  }
+}
+
+@media (min-width: 500px) {
+  .container .camera-container {
+    width: 45%;
+  }
+}
+
+@media (min-width: 700px) {
+  .container .camera-container {
+    width: 45%;
+  }
 }
