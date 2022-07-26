@@ -44,26 +44,12 @@
 • Deploying to GitHub Pages
 
 Project Development Schedule:
-    1. configure git repo 
-    2. clone repo local
-    3. npx create react app tenspor-flow-project :) - Roxana (what is the difference between npx and npm create or start? what templates are available?) 
-        ??? use react 17.2 or 18? 
-        TODO: what are the differences between react 17.2 and 18? => Alex
-
-
-    4. configure github pages - Roxana (deploy to production) 
-    5. make app PWA (Mo) - BOTH - check if service worker can be checked locally ???!!!
-    6. check out how to make it availalbe in app store or google play?! - to be studied (Co)
-    7. check out how to make application show notification when new version is available (S)
-    8. install necessary modules - ? (make a list of necessary modules) 
-            https://www.npmjs.com/package/@tensorflow/tfjs
-    9. !!! check how to load web cam / smartphone camera in react app ?! !!! - Alex (Mo)
-    10. check how to use local webcam for development and smartphone camera in production (github pages) - both of us 
-    11. Configure testing using JEST / Cypress (TODO: study about differences and what tests would be necessary)
-    12. Implement mobile-detect module to check if app is being opened from mobile or desktop based on OS - TBD
-    13. Implement camera disable - TBD (may need another module for camera to be used)
-    14. Implement image responsibe resize based on device properties !!! not affect image quality - Roxana
+    
+    1. check out how to make application show notification when new version is available (S)   
+    2. Configure testing using JEST / Cypress (TODO: study about differences and what tests would be necessary)
+    3. Implement mobile-detect module to check if app is being opened from mobile or desktop based on OS - TBD
+    4. Implement camera disable - TBD (may need another module for camera to be used)
+    5. Implement image responsibe resize based on device properties !!! not affect image quality - Roxana
         => how to resize image to fit any display?
         => image needs to be centered horizontally at all times
         => Future implementation: check how to do it for multiple images.
-    15. First implementation of TensorFlow - Alex
