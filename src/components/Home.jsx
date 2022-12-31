@@ -7,12 +7,13 @@ import Webcam from "react-webcam";
 
 import * as cocoSsd from "@tensorflow-models/coco-ssd";
 import * as tf from "@tensorflow/tfjs";
+import { useLayoutEffect } from 'react';
 
 const Home = () => {
     const [source, setSource] = useState("");
     const [isCameraEnabled, setIsCameraEnabled] = useState(false)
     const webcamRef = React.useRef(null);
-    const [model, setModel] = useState();
+    const [model, setModel] = useState(null);
 
     const [videoWidth, setVideoWidth] = useState(960);
     const [videoHeight, setVideoHeight] = useState(640);
@@ -28,12 +29,18 @@ const Home = () => {
             console.log("failed load model");
         }
     }
+useLayoutEffect(()=>{
+
+}, []
+)
+
     useEffect(() => {
-        tf.ready().then(() => {
-            loadModel();
-        });
-        
-    }, []);
+        tf.ready()
+        .then(() => loadModel())
+        .then(()=>console.log(model))
+        .then(()=> predictionFunction()
+        )       
+    }, [model]);
 
     async function predictionFunction() {
         try {
@@ -75,8 +82,8 @@ const Home = () => {
                 }
             }
             //Rerun prediction by timeout
-            setTimeout(() => predictionFunction(), 500);
-        }
+            // setTimeout(() => predictionFunction(), 1500);
+    }
         catch (error) {
             console.log(error)
         }
@@ -113,7 +120,7 @@ const Home = () => {
         <div className="home-container">
             <div className="container">
                 <div className="text">
-                    {isMobile ? <h5>Loaded from mobile</h5> : <h5>This application works in desktop mode</h5>}
+                    {isMobile ? <h5>Mobile</h5> : <h5>Desktop mode</h5>}
                     </div>
 
 
